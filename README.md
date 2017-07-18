@@ -9,7 +9,7 @@ Existing typological databases contain relatively full feature specifications fo
 Exploiting the existance of parallel texts in more than a thousand languages, we build a massive many-to-one NMT system from 1017 languages into English, and use this to predict information missing from typological databases.
 Experiments show that the proposed method is able to infer not only syntactic, but also phonological and phonetic inventory features, and improves over a baseline that has access to information about the languages' geographic and phylogenetic neighbors.
 
-# Bibtex: 
+## Bibtex: 
 
 @inproceedings{malaviya17emnlp,
     title = {Learning Language Representations for Typology Prediction},
