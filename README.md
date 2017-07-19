@@ -19,3 +19,5 @@ Experiments show that the proposed method is able to infer not only syntactic, b
     month = {September},
     year = {2017}
 }
+
+### Learned Vectors: https://drive.google.com/open?id=0B47fwl2TZnQaa0s5bDJESno0OTQ
