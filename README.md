@@ -9,6 +9,10 @@ Existing typological databases contain relatively full feature specifications fo
 Exploiting the existance of parallel texts in more than a thousand languages, we build a massive many-to-one NMT system from 1017 languages into English, and use this to predict information missing from typological databases.
 Experiments show that the proposed method is able to infer not only syntactic, but also phonological and phonetic inventory features, and improves over a baseline that has access to information about the languages' geographic and phylogenetic neighbors.
 
+The URIEL database is available at http://www.cs.cmu.edu/~dmortens/uriel.html
+
+Learned Vectors: https://drive.google.com/open?id=0B47fwl2TZnQaa0s5bDJESno0OTQ
+
 ## Bibtex: 
 
 @inproceedings{malaviya17emnlp,
@@ -19,5 +23,3 @@ Experiments show that the proposed method is able to infer not only syntactic, b
     month = {September},
     year = {2017}
 }
-
-Learned Vectors: https://drive.google.com/open?id=0B47fwl2TZnQaa0s5bDJESno0OTQ
