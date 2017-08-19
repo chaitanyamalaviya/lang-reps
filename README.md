@@ -13,6 +13,17 @@ The URIEL database is available at http://www.cs.cmu.edu/~dmortens/uriel.html
 
 Learned Vectors: https://drive.google.com/open?id=0B47fwl2TZnQaa0s5bDJESno0OTQ
 
+After downloading and unzipping the above file, you may access the learned vectors as below:
+
+import numpy as np
+vecs = np.load("lang_vecs.npy")
+vecs.item()['optsrc'+'fra']  # For French
+vecs.item()['optsrc'+'ita']  # For Italian
+
+cell_states = np.load("lang_cell_states.npy")
+cell_states.item()['fra'][0]  # For French
+cell_states.item()['ita'][0]  # For Italian
+
 ## Bibtex: 
 
 @inproceedings{malaviya17emnlp,
